@@ -1,9 +1,90 @@
-body {
-    background: blue;
-}
+body{
+    font-family: Arial,sans-serif;
+    background-color: lightgray;
+    color:#333
+  }
 .profile-pic {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin-top: 1rem;
+}
+header{
+    background-color: plum;
+    color:teal;
+    padding:20px
+    
+}
+
+header h1{
+  font-size:1em;
+  padding:10px;
+  text-align:center
+}
+
+nav ul{
+    list-style:none;
+    display:flex ;/* align items horizontally*/
+    gap:30px
+}
+
+nav a{
+    color: teal;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color:gold;
+}
+
+main {
+    padding: 20px;
+}
+nav{
+    text-align: center;
+}
+
+#Introduction{
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius:5px;
+    margin-bottom:30px
+}
+
+#Introduction h2{
+    margin-bottom: 10px;
+}
+
+#Introduction p{
+    margin-bottom: 10px;
+}
+
+#Projects{
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius:5px;
+    margin-bottom:30px
+}
+
+#Projects h2{
+    margin-bottom: 10px;
+}
+
+#Projects p{
+    margin-bottom: 10px;
+}
+
+#Skills{
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius:5px;
+    margin-bottom:30px
+}
+
+#Skills h2{
+    margin-bottom: 10px;
+}
+
+#Skills p{
+    margin-bottom: 10px;
 }
