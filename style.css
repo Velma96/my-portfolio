@@ -1,56 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
 body{
     font-family: Arial,sans-serif;
     background-color: lightgray;
-    color:#333
-  }
-.profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-top: 1rem;
+    color:#333;
+    background: url(background\ pic.jpg);
+    background-size: cover;
+    background-position: center;
 }
 header{
-    background-color: plum;
+    background-color: lightpink;
     color:teal;
-    padding:20px
-    
-}
-
-header h1{
-  font-size:1em;
-  padding:10px;
-  text-align:center
-}
-
-nav ul{
-    list-style:none;
-    display:flex ;/* align items horizontally*/
-    gap:30px
-}
-
-nav a{
-    color: teal;
-    text-decoration:none;
-}
-
-nav a:hover{
-    color:gold;
-}
-
-main {
     padding: 20px;
 }
-nav{
-    text-align: center;
+header h1{
+    font-size:1em;
+    padding:10px;
+    text-align:center
 }
+header p{
+    font-size:1em;
+    padding:10px;
+    text-align:center
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
 
+}
+.navbar .profile-pic{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+    border: none;
+    object-fit: cover;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16 px;
+    gap: 50px;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: teal;
+}
+ul li a:hover{
+    color: deeppink;
+}
 #Introduction{
-    background-color: whitesmoke;
+    background-color: lightgrey;
     padding: 20px;
     border-radius:5px;
     margin-bottom:30px
 }
-
 #Introduction h2{
     margin-bottom: 10px;
 }
@@ -60,12 +74,11 @@ nav{
 }
 
 #Projects{
-    background-color: whitesmoke;
+    background-color: lightgrey;
     padding: 20px;
     border-radius:5px;
     margin-bottom:30px
 }
-
 #Projects h2{
     margin-bottom: 10px;
 }
@@ -75,7 +88,7 @@ nav{
 }
 
 #Skills{
-    background-color: whitesmoke;
+    background-color: lightgrey;
     padding: 20px;
     border-radius:5px;
     margin-bottom:30px
@@ -84,7 +97,17 @@ nav{
 #Skills h2{
     margin-bottom: 10px;
 }
-
 #Skills p{
     margin-bottom: 10px;
 }
+
+footer{
+    background-color: lightpink;
+    padding:15px;
+    text-align: center;
+    color:teal;
+    width:100%;
+    position:absolute;
+}
+
+
