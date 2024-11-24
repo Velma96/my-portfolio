@@ -17,12 +17,12 @@ header{
     padding: 20px;
 }
 header h1{
-    font-size:1em;
+    font: size 1.5em;
     padding:10px;
     text-align:center
 }
 header p{
-    font-size:1em;
+    font: size 1.5em;
     padding:10px;
     text-align:center
 }
@@ -59,48 +59,18 @@ ul li a{
 ul li a:hover{
     color: deeppink;
 }
-#Introduction{
-    background-color: lightgrey;
+main {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
     padding: 20px;
-    border-radius:5px;
-    margin-bottom:30px
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 20px auto; 
+    max-width: 90%;
+    align-items: center;
 }
-#Introduction h2{
-    margin-bottom: 10px;
-}
-
-#Introduction p{
-    margin-bottom: 10px;
-}
-
-#Projects{
-    background-color: lightgrey;
-    padding: 20px;
-    border-radius:5px;
-    margin-bottom:30px
-}
-#Projects h2{
-    margin-bottom: 10px;
-}
-
-#Projects p{
-    margin-bottom: 10px;
-}
-
-#Skills{
-    background-color: lightgrey;
-    padding: 20px;
-    border-radius:5px;
-    margin-bottom:30px
-}
-
-#Skills h2{
-    margin-bottom: 10px;
-}
-#Skills p{
-    margin-bottom: 10px;
-}
-
 footer{
     background-color: lightpink;
     padding:15px;
@@ -109,5 +79,32 @@ footer{
     width:100%;
     position:absolute;
 }
-
+h2{
+    font-size: 1.5em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc; 
+    padding-bottom: 5px;
+}
+p{
+    font-size: 1.5em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc; 
+    padding-bottom: 5px;
+}
+p {
+    line-height: 1.6; 
+    color: #555;
+    font-size: 1em;
+}
+.image{
+    flex: 0 0 200px;
+}
+.image img{
+    width: 100%;
+    height: auto;
+}
 
