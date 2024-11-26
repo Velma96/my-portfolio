@@ -107,4 +107,104 @@ p {
     width: 100%;
     height: auto;
 }
+.projects {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 
+}
+.project-link {
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    max-width: 200px;
+}
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.project-link:hover .project-image {
+    transform: scale(1.05);
+}
+.project-link p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.feedback-section{
+    background-color: skyblue;
+    padding: 40px;
+    margin: 40px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.container {
+    width: 100%;
+
+}
+h2 { 
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+p { 
+    color: #777;
+    margin-bottom: 20px;
+}
+label {
+    font-size: 16px;
+    color: #444;
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+input:focus, textarea:focus {
+    border-color: #6c63ff;
+    outline: none;
+}
+textarea {
+    resize: vertical;
+}
+.submit-btn {
+    background-color: lightcoral;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+
+}
+.submit-btn:hover {
+    background-color: mediumspringgreen;
+
+}
+.submit-btn:active {
+    background-color: #4641bc;
+}
+@media(max-width: 600px) {
+    .feedback-section {
+        padding: 20px;
+        margin: 20px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .submit-btn{
+        width: 100%;
+    }
+}
