@@ -61,7 +61,7 @@ For any inquiries, feedback, or collaboration opportunities, feel free to reach 
 - *Name*: Phoebe Velma Awuor
 - *Email*: [awuorphoebi@gmail.com]
 - *LinkedIn*: [https://www.linkedin.com/in/phoebe-velma-awuor/](#)
-- *GitHub*: [Velma96](#)
+- *GitHub*: [https://github.com/Velma96](#)
 
 ---
 
